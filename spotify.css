@@ -1,0 +1,32 @@
+*{
+  background-color: #FFF;
+}
+
+table {
+  margin: 10px;
+  box-shadow: 4px 1px 8px #888888;
+}
+
+table, tbody, td {
+  border: 1px solid black;
+  width:90%
+}
+td {
+  width: 20%;
+  height: 20px;
+  text-align: center;
+  background-color:rgb(191, 246, 201);
+}
+#create-card:hover {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 10%;
+  box-shadow: 4px -0.5px 8px #888888;
+}
+
+input {
+  border-radius: 10%;
+  box-shadow: 4px -0.5px 8px #888888;
+}
