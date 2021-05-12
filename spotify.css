@@ -1,32 +1,119 @@
 *{
-  background-color: #FFF;
+  background-color: #000;
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
 }
 
-table {
-  margin: 10px;
-  box-shadow: 4px 1px 8px #888888;
-}
-
-table, tbody, td {
-  border: 1px solid black;
-  width:90%
-}
-td {
-  width: 20%;
-  height: 20px;
+.title {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  width: 40%;
+  color: #fff;
+  font-weight:bold;
   text-align: center;
-  background-color:rgb(191, 246, 201);
 }
-#create-card:hover {
-  cursor: pointer;
-}
-
-button {
-  border-radius: 10%;
-  box-shadow: 4px -0.5px 8px #888888;
-}
-
 input {
-  border-radius: 10%;
-  box-shadow: 4px -0.5px 8px #888888;
+  border-radius: 25px;
+  height: 3rem;
+  background-color: #fff;
+  width:40%;
+  margin: 30%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #757373;
+  font-weight:bolder;
+  text-align: center;
+}
+
+
+.playerBar{
+  display:flex;
+  justify-content: space-between;
+  width:90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border: 4px solid black;
+  background-color: #1DB954;
+  }
+
+.playerName{
+  width:20%;
+  Padding: 1rem;
+  font-size: large;
+  font-weight: bold;
+  color:White;
+  background-color: #1DB954;
+  }
+
+.showBtn {
+  min-height: 2rem;
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right:1rem;
+  background-color:white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+  }
+ 
+
+.trashBtn {
+  min-height: 2rem;
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right:1rem;
+  background-color:white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+  }
+
+
+
+  table {
+    margin: 0 auto;
+  }
+  
+  table, tbody, td {
+    border: 1px solid black;
+    width:90%;
+    border-top: 0px;
+  }
+  td {
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    background-color:#1DB954;
+  }
+
+  .Hide {
+    display:none;
+  }
+
+.resultsList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.album {
+    max-width: 10rem;
+    overflow: hidden;
+    object-fit: fill;
+}
+
+img {
+    max-width: 10rem;
+}
+
+.playlistName {
+    color: white;
+    max-width : 10rem;
 }
